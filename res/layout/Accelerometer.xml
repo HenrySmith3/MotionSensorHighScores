@@ -7,7 +7,12 @@
     <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Accelerometer"
-            android:id="@+id/button"/>
+            android:text="Start"
+            android:id="@+id/startButton"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="153dp"
+            android:text="New Text"
+            android:id="@+id/textView" android:textSize="50dp"/>
 </LinearLayout>
 
