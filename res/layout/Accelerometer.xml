@@ -11,8 +11,12 @@
             android:id="@+id/startButton"/>
     <TextView
             android:layout_width="fill_parent"
-            android:layout_height="153dp"
-            android:text="New Text"
-            android:id="@+id/textView" android:textSize="50dp"/>
+            android:layout_height="wrap_content"
+            android:text="X: 0"
+            android:id="@+id/textViewX" android:textSize="50dp"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Y: 0"
+              android:id="@+id/textViewY" android:textSize="50dp"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Z: 0"
+              android:id="@+id/textViewZ" android:textSize="50dp"/>
 </LinearLayout>
 

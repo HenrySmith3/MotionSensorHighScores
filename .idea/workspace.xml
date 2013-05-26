@@ -25,21 +25,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e3aab75-fdd3-461f-8997-23023a5016f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/MotionSensorHighScores/Accelerometer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/accelerometer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/MotionSensorHighScores/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/MotionSensorHighScores/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MOVED" beforePath="B:\Code\MotionSensorHighScores\res\layout\Accelerometer.xml" afterPath="$PROJECT_DIR$/res/layout/accelerometer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/MotionSensorHighScores/Accelerometer.java" afterPath="$PROJECT_DIR$/src/com/example/MotionSensorHighScores/Accelerometer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MotionSensorHighScores.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="4e3aab75-fdd3-461f-8997-23023a5016f2" time="1369590947522" ignored="false" />
-    <file path="/Dummy.txt" changelist="4e3aab75-fdd3-461f-8997-23023a5016f2" time="1369591697941" ignored="false" />
-    <file path="/Accelerometer.java" changelist="4e3aab75-fdd3-461f-8997-23023a5016f2" time="1369594755373" ignored="false" />
+    <file path="/Dummy.txt" changelist="4e3aab75-fdd3-461f-8997-23023a5016f2" time="1369594832807" ignored="false" />
+    <file path="/Accelerometer.java" changelist="4e3aab75-fdd3-461f-8997-23023a5016f2" time="1369595776554" ignored="false" />
     <file path="/MyActivity.java" changelist="4e3aab75-fdd3-461f-8997-23023a5016f2" time="1369592621981" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="4e3aab75-fdd3-461f-8997-23023a5016f2" time="1369592492864" ignored="false" />
-    <file path="/accelerometer.xml" changelist="4e3aab75-fdd3-461f-8997-23023a5016f2" time="1369594285314" ignored="false" />
+    <file path="/accelerometer.xml" changelist="4e3aab75-fdd3-461f-8997-23023a5016f2" time="1369594880163" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,11 +116,13 @@
       <file leaf-file-name="Accelerometer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/MotionSensorHighScores/Accelerometer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="34" selection-start="1293" selection-end="1293" vertical-scroll-proportion="-0.17043479">
+            <state line="60" column="17" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.18545455">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1342#1474#0" expanded="true" />
-                <element signature="e#1467#1468#0" expanded="true" />
+                <element signature="e#1552#1959#0" expanded="true" />
+                <element signature="e#1952#1953#0" expanded="true" />
+                <element signature="e#2009#2233#0" expanded="true" />
+                <element signature="e#2226#2227#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,11 +139,11 @@
       </file>
       <file leaf-file-name="accelerometer.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/accelerometer.xml">
-          <provider editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="35" selection-start="442" selection-end="442" vertical-scroll-proportion="-3.4">
+          <provider editor-type-id="text-editor">
+            <state line="17" column="40" selection-start="805" selection-end="805" vertical-scroll-proportion="-11.56">
               <folding />
             </state>
           </provider>
@@ -182,8 +181,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/example/MotionSensorHighScores/MyActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/res/layout/accelerometer.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/accelerometer.xml" />
         <option value="$PROJECT_DIR$/src/com/example/MotionSensorHighScores/Accelerometer.java" />
       </list>
     </option>
@@ -324,7 +323,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
@@ -511,15 +510,19 @@
       <created>1369591721334</created>
       <updated>1369591721334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Progress is progress, got the sensor working and the UI progressed">
+      <created>1369594838638</created>
+      <updated>1369594838638</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32337245" sideWeight="0.67001116" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32337245" sideWeight="0.67001116" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32337245" sideWeight="0.67112595" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32337245" sideWeight="0.67112595" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -539,7 +542,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25133404" sideWeight="0.67001116" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25133404" sideWeight="0.67001116" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -586,7 +589,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progress is progress, got the sensor working and the UI progressed" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -600,6 +603,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Progress is progress, got the sensor working and the UI progressed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -648,22 +652,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/accelerometer.xml">
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="442" selection-end="442" vertical-scroll-proportion="-3.4">
+      <provider editor-type-id="text-editor">
+        <state line="17" column="40" selection-start="805" selection-end="805" vertical-scroll-proportion="-11.56">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/MotionSensorHighScores/Accelerometer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="34" selection-start="1293" selection-end="1293" vertical-scroll-proportion="-0.17043479">
+        <state line="60" column="17" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.18545455">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1342#1474#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1552#1959#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="e#2009#2233#0" expanded="true" />
+            <element signature="e#2226#2227#0" expanded="true" />
           </folding>
         </state>
       </provider>
